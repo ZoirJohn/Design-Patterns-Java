@@ -1,0 +1,27 @@
+Strategy:
+	* Defines a family of algorithms, encapsulates each one, and makes them interchangeable. Pattern lets the algorithm vary independently  from clients that use it
+
+	Identify the aspects of your application that vary and separate them from what stays the same
+	Program to an interface, not an implementation
+	Favor composition over inheritance
+
+Observer:
+	* Defines one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically
+
+	Strive for loosely coupled designs between objects that interact
+
+Decorator:
+	* Attaches additional responsibilities to an object dynamically. They provide a flexible alterative to subclassing for extending functionality
+
+	Classes should be open for extension, but closed for modification
+
+Factory:
+	* Defines an interface for creating an object, but lets subclasses decide which class to instantiate. Pattern lets a class defer instantiation to subclasses
+
+	Depend upon abstractions. Do not depend upon concrete classes
+
+Abstract Factory:
+	* Provides an interface for creating families of related or dependent objects without specifying their concrete classes
+
+Singleton:
+	* Ensures a class has only one instance, and provides a global point of access to it
