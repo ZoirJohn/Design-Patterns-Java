@@ -34,4 +34,7 @@ Adapter:
 
 	Principle of Least Knowledge - talk only to your immediate friends
 
-	
+Template:
+	* Defines the skeleton of an algorithm in a method, deferring some steps to subclasses. Tempate Method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure
+
+	Hollywood Principle - Don't call us, we'll call you
