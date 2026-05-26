@@ -38,3 +38,11 @@ Template:
 	* Defines the skeleton of an algorithm in a method, deferring some steps to subclasses. Tempate Method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure
 
 	Hollywood Principle - Don't call us, we'll call you
+
+Iterator:
+	* Provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation
+
+	A class should have only one reason to change
+
+State:
+	* Allows an object to alter its behavior when its internal state changes. The object will appear to change its class
